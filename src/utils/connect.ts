@@ -3,7 +3,7 @@ import config from "config";
 import logger from "./logger";
 
 async function connect() {
-  const dbUri = config.get<string>("dbUri");
+  const dbUri = "mongodb+srv://autosense:admin@cluster0.io8xv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"//config.get<string>("dbUri");
   try {
     await mongoose.connect(dbUri);
     logger.info("DB connected");

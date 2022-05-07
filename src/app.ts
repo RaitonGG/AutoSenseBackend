@@ -16,8 +16,8 @@ app.use(express.json());
 
 app.use(requireKey);
 
-app.listen(async () => {
-  logger.info(`App is running`);// at http://${host}:${port}`);
+app.listen(port, async () => {
+  logger.info(`App is running at http://${host}:${port}`);
 
   await connect();
 

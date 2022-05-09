@@ -12,7 +12,7 @@ const validate =
       });
       next();
     } catch (e: any) {
-      console.log("error:", e);
+      console.log("Error Validating Resource:", e);
       return res.status(400).send(e.errors);
     }
   };

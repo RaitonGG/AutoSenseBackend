@@ -4,7 +4,7 @@ export default {
   saltWorkFactor: 10,
   accessTokenTtl: "15m",
   refreshTokenTtl: "1y",
-  hostname: "localhost",
+  hostname: "3.90.66.246",
   accessTokenPrivateKey: `-----BEGIN RSA PRIVATE KEY-----
   MIICXAIBAAKBgFhJGUfPHfeB+jHk/HBym/IBnnazbc/PV/WGuUfZQ6Xxy5i3PkFo
   PW2bb2ysdEyjXN5yTh4laE3epHB2SJ5RZxBzj/Ean8LcgUkoLHLTFnxgsmPwaya6

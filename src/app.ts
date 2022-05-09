@@ -7,7 +7,7 @@ import logger from "./utils/logger";
 import routes from "./routes";
 import requireKey from "./middleware/requireKey";
 
-const port = config.get<number>("port");
+const port = process.env.PORT || config.get<number>("port");
 const host = config.get<number>("hostname");
 
 const app = express();
